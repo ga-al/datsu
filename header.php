@@ -71,13 +71,34 @@
               </div>
             </div>
             <div class="d-flex align-items-center gap-1">
-              <button type="button" class="btn btn-soc btn-danger rounded-0 px-md-4 px-3">
+              <button type="button" class="btn btn-soc btn-danger rounded-0 px-md-4 px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasContacts" aria-controls="offcanvasContacts">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
                   <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"></path>
                 </svg>
               </button>
               <div class="phone text-nowrap d-lg-inline-block d-none"><a class="py-md-3 px-3" href="tel:+79261605204">+7 (926) 160 52 04</a></div>
               <div class="times text-nowrap ps-3"><span class="cantry">RU </span><span class="time"></span></div>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasContactsLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  Какой-то текст в качестве заполнителя. В реальной жизни у вас могут быть элементы, которые Вы выбрали. Нравится, текст, изображения, списки и т. д.
+                </div>
+                <div class="dropdown mt-3">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Кнопка раскрывающегося списка
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
