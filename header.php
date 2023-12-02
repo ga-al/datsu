@@ -84,8 +84,8 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
               </div>
               <div class="offcanvas-body">
-                <div class="row">
-                  <div class="col">
+                <div class="row mb-3">
+                  <div class="col-4">
                     <div class="text-accent mb-3">Adress factories:</div>
                   </div>
                   <div class="col">
@@ -93,7 +93,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
+                  <div class="col-4">
                     <div class="text-accent mb-3">Adress office:</div>
                   </div>
                   <div class="col">
