@@ -79,24 +79,26 @@
               <div class="phone text-nowrap d-lg-inline-block d-none"><a class="py-md-3 px-3" href="tel:+79261605204">+7 (926) 160 52 04</a></div>
               <div class="times text-nowrap ps-3"><span class="cantry">RU </span><span class="time"></span></div>
             </div>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasContactsLabel">Offcanvas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+            <div class="offcanvas offcanvas-start text-bg-danger" tabindex="-1" id="offcanvasContacts" aria-labelledby="offcanvasContactsLabel">
+              <div class="offcanvas-header border-0">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
               </div>
               <div class="offcanvas-body">
-                <div>
-                  Какой-то текст в качестве заполнителя. В реальной жизни у вас могут быть элементы, которые Вы выбрали. Нравится, текст, изображения, списки и т. д.
+                <div class="row">
+                  <div class="col">
+                    <div class="text-accent mb-3">Adress factories:</div>
+                  </div>
+                  <div class="col">
+                    <div class="text-accent mb-3">Daying Industrial Zone, Zhishan Town, Heshan City, Jiangmen City, Guangdong Province, China zip code 529700 </div>
+                  </div>
                 </div>
-                <div class="dropdown mt-3">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                    Кнопка раскрывающегося списка
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#">Действие</a></li>
-                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
-                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
-                  </ul>
+                <div class="row">
+                  <div class="col">
+                    <div class="text-accent mb-3">Adress office:</div>
+                  </div>
+                  <div class="col">
+                    <div class="text-accent mb-3">UNIT 617, 6/F, 131-132CONNAUGHT ROAD WEST, SOLO WORKSHOPS, HONG KONG</div>
+                  </div>
                 </div>
               </div>
             </div>
