@@ -278,6 +278,42 @@ get_header();
                     <div class="title text-danger">We work with pipes</div>
                     <div class="block-right"><a class="p-3 text-nowrap" href="">download catalogue</a></div>
                   </div>
+                  <article>
+                    <article class="d-flex position-relative">
+                      <div class="swiper-slide flex-column">
+                        <div class="slider-img flex-shrink-0 me-3"><img src="<?= get_stylesheet_directory_uri(); ?>/img/pipes/01.png" alt=""></div>
+                        
+                      </div>
+                      <div>
+                        <div class="slider-desc">stainless steel welded pipes</div>
+                        <div class="col-xl-6"> 
+                          <div class="col mb-2">
+                            <p class="text-default mb-0">Diameter</p>
+                            <div class="row">
+                              <div class="col check">6.0 – 375 Mm </div>
+                            </div>
+                          </div>
+                          <div class="col mb-2">
+                            <p class="text-default mb-0">Pipe length</p>
+                            <div class="row"> 
+                              <div class="col-6 check pe-0">4000 Mm</div>
+                              <div class="col-6 check pe-0">6000 Mm</div>
+                            </div>
+                          </div>
+                          <div class="col mb-2">
+                            <p class="text-default mb-0">Surface</p>
+                            <div class="row">
+                              <div class="col-6 check pe-0">GRIT 320 <span>(ground)</span></div>
+                              <div class="col-6 check pe-0">2B</div>
+                            </div>
+                            <div class="row"> 
+                              <div class="col-6 check pe-0">GRIT 600 <span>(polished)</span></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </article>
                   <div class="slider d-flex justify-conten-center pb-lg-0 pb-5 pt-2">
                     <div class="swiper slider-left" thumbsSlider="">
                       <div class="swiper-wrapper">
